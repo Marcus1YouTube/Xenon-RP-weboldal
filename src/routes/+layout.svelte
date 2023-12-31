@@ -37,7 +37,7 @@
 	<svelte:fragment slot="footer">
 		<footer>
 			<div class="grid justify-items-center place-content-center bg-surface-300 p-10 mt-3">
-				<p>© 2023 XenonRP. Összes jog fenntartva.</p>
+				<p>© 2023 XenonRP. Minden jog fenntartva.</p>
 			</div>
 		</footer>
 	</svelte:fragment>

@@ -25,5 +25,10 @@
 	<p>Ezért nem kétség, hogy mi vagyunk Magyarország egyik legnagyobb SAMP szervere.</p>
 	<hr class="!border-t-8" />
 	<h1 class="h1 text-left">Galéria</h1>
-	<h3 class="h3 text-left">Tekints be a szerverbe!</h3>
+	<h3 class="h3 text-left">Tekints be a közösségünkhöz!</h3>
+	<div class="bg-surface-300 grid grid-cols-2 md:grid-cols-3 gap-4">
+		{#each [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12] as i}
+		<img src={"/gallery/v2kep_" + i + ".jpg"} alt="galéria kép"/>
+		{/each}
+	</div>
 </main>

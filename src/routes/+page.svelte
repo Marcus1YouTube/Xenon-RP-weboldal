@@ -1,22 +1,37 @@
-<svelte:head>
-    <title>Főoldal - Xenon RP</title>
-</svelte:head>
-
 <script>
 </script>
 
-<main class="flex justify-center flex-col mx-10 text-center gap-4 text-2xl">
-    <h1 class="h1"><span class="bg-gradient-to-br from-blue-500 to-cyan-300 bg-clip-text text-transparent box-decoration-clone">Jó közösség.</span></h1>
-    <h1 class="h1"><span class="bg-gradient-to-br from-pink-500 to-violet-300 bg-clip-text text-transparent box-decoration-clone">Segítőkész staff.</span></h1>
-    <h1 class="h1"><span class="bg-gradient-to-br from-orange-500 to-yellow-300 bg-clip-text text-transparent box-decoration-clone">Gazdag játékélmény.</span></h1>
-    <p>Mi vagyunk a XenonRP.</p>
-    <div>
-        <p>A SAMP-on alapszunk, ami az eredeti multiplayer modja a San Andreas-nak.</p>
-        <a href="https://www.sa-mp.mp" class="anchor" target="_blank">Hivatalos weboldal</a>
-    </div>
-    <hr class="!border-t-8" />
-    <h1 class="h4 text-left">Ez egy üzenet a szerver alapítójától:</h1>
-	<p class="border border-black font-mono text-left p-4">
+<svelte:head>
+	<title>Főoldal - Xenon RP</title>
+</svelte:head>
+
+<main class="mx-10 flex flex-col justify-center gap-4 text-center text-2xl">
+	<h1 class="h1">
+		<span
+			class="bg-gradient-to-br from-blue-500 to-cyan-300 box-decoration-clone bg-clip-text text-transparent"
+			>Jó közösség.</span
+		>
+	</h1>
+	<h1 class="h1">
+		<span
+			class="bg-gradient-to-br from-pink-500 to-violet-300 box-decoration-clone bg-clip-text text-transparent"
+			>Segítőkész staff.</span
+		>
+	</h1>
+	<h1 class="h1">
+		<span
+			class="bg-gradient-to-br from-orange-500 to-yellow-300 box-decoration-clone bg-clip-text text-transparent"
+			>Gazdag játékélmény.</span
+		>
+	</h1>
+	<p>Mi vagyunk a XenonRP.</p>
+	<div>
+		<p>A SAMP-on alapszunk, ami az eredeti multiplayer modja a San Andreas-nak.</p>
+		<a href="https://www.sa-mp.mp" class="anchor" target="_blank">Hivatalos weboldal</a>
+	</div>
+	<hr class="!border-t-8" />
+	<h1 class="h4 text-left">Ez egy üzenet a szerver alapítójától:</h1>
+	<p class="border border-black p-4 text-left font-mono">
 		Szia! Nagy öröm számomra bemutatni neked a Xenon Roleplay V3 samp szerverét, ahol a szerepjáték
 		művészete és a közösségi élmények találkoznak egy olyan világban, amely már a harmadik nyitását
 		ünnepli, és a V3 korszakát éli. Egyedi élményünk titka a közösségünk szívében rejlik. Itt minden
@@ -36,5 +51,5 @@
 		egy olyan közösségnek, ahol a kalandok, barátságok és szórakozás mindig a fókuszban állnak!
 		Várunk szeretettel, hogy együtt alkossunk felejthetetlen élményeket.
 	</p>
-    <p>Ha szeretnél többet tudni a szerverről, nyomj a rólunk gombra az oldal tetején!</p>
+	<p>Ha szeretnél többet tudni a szerverről, nyomj a rólunk gombra az oldal tetején!</p>
 </main>

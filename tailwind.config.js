@@ -5,7 +5,6 @@ import { join } from 'path';
 import { skeleton } from '@skeletonlabs/tw-plugin';
 
 import { xenonrptheme } from './xenon-rp-theme';
-import { testingtheme } from './testing-theme';
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -23,7 +22,7 @@ export default {
 		// 4. Append the Skeleton plugin (after other plugins)
 		skeleton({
 			themes: {
-				custom: [xenonrptheme, testingtheme]
+				custom: [xenonrptheme]
 			}
 		})
 	]
