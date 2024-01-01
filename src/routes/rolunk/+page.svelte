@@ -24,11 +24,14 @@
 	<br />
 	<p>Ezért nem kétség, hogy mi vagyunk Magyarország egyik legnagyobb SAMP szervere.</p>
 	<hr class="!border-t-8" />
-	<h1 class="h1 text-left">Galéria</h1>
-	<h3 class="h3 text-left">Tekints be a közösségünkhöz!</h3>
-	<div class="bg-surface-300 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+	<div class="text-left">
+		<h1 class="h1">Galéria</h1>
+		<h3 class="h3">Tekints be a közösségünkhöz!</h3>
+		<b><i>Jegyzet: A képek előnézetben rossz minőségűek, a teljes minőségű képért nyomj rá a fotóra! Ez azért kell, hogy gyorsabban tölthessen be a webodal.</i></b>
+	</div>
+	<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
 		{#each [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12] as i}
-		<a href={"/gallery/v2kep_" + i + ".jpg"} target="_blank"><img src={"/gallery/v2kep_" + i + ".jpg"} alt="galéria kép"/></a>
+		<a href={"/gallery/uncompressed/v2kep_" + i + ".jpg"} target="_blank"><img src={"/gallery/v2kep_" + i + ".jpg"} alt="galéria kép"/></a>
 		{/each}
 	</div>
 </main>
