@@ -49,8 +49,8 @@
 <AppShell>
 	<svelte:fragment slot="header">
 		<nav>
-			<div class="m-3 flex flex-wrap justify-center gap-2 rounded-3xl bg-surface-300 py-2">
-				<img src="/xenon_nobg.png" alt="XenonRP Logó" width="50" />
+			<div class="m-3 flex flex-wrap justify-center gap-2 rounded-3xl bg-surface-300 py-2 px-3">
+				<img src="/xenon_nobg.png" alt="XenonRP Logó" width="50" class="lg:mr-auto" />
 				<!-- <a href="./" class="btn variant-filled">Példa</a> -->
 				{#each navElements as item}
 					<a href={item.url} target={item.newTab ? '_blank' : '_self'} class="variant-filled btn">
